@@ -428,7 +428,7 @@ body {
                       ------------------*/
 
 .close-btn {
-    background: url(../images/icon/close.png);
+    background: url(../images/close.png);
     z-index: 1000;
     cursor: pointer;
     width: 40px;
