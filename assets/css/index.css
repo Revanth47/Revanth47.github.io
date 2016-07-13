@@ -21,9 +21,6 @@
 	}
 	.introduction .intro-content h1 {
 		font-size: 30px;
-	}	
-	.introduction .intro-content h1 div {
-		font-size: 30px;
 	}
 	.introduction .intro-content h2 {
 		font-size: 20px;
@@ -34,6 +31,17 @@
 	.introduction img {
 		height: 200px;
 		width: 200px;
+	}
+	.introduction .intro-data {
+		position: absolute;
+		width: 100%;
+	    top: 50%;
+	    left: 50%;
+	    -webkit-transform: translate(-50%,-50%);
+	    -moz-transform: translate(-50%,-50%);
+	    -ms-transform: translate(-50%,-50%);
+	    -o-transform: translate(-50%,-50%);
+	    transform: translate(-50%,-50%);
 	}
 
 	.menu .heading .btn-desc {

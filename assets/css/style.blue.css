@@ -306,6 +306,7 @@ body {
     text-decoration: none;
     outline: 0 none;
     padding: 0 10px;
+    cursor: pointer;
 }
 
 .social-media a + .tooltip > .tooltip-inner {
