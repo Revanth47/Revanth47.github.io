@@ -1,12 +1,41 @@
+
+.introduction img {
+	margin: auto;
+	height: 150px;
+	height: 150px;
+}
+
 .menu, .introduction {
 	height: 50%;
 }
+
 .introduction .intro-data {
 	height: 100%;
 }
 
 @media screen and (min-width: 768px) {
+	.introduction img {
+		height: 200px;
+		width: 200px;
+	}
+
+	.menu .heading .btn-desc {
+		width: calc(100% - 100px);
+		padding: 1% 0;
+	}
+	.menu .heading .btn-image {
+		width: 60px;
+		margin-right: 20px;
+		padding: 0;
+	}
 	.menu, .introduction {
 		height: 100%;
+	}
+}
+
+@media screen and (min-width: 1170px) {
+	.introduction img {
+		height: 250px;
+		width: 250px;
 	}
 }
