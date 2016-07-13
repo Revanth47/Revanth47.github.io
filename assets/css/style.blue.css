@@ -2,9 +2,6 @@
                        1 ) Font Import From Google Fonts
                       -----------------------------------*/
 
-@import url(http://fonts.googleapis.com/css?family=Hind:300,500);
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,400italic);
-
                     /*----------------------
                        2 ) Preloader Styles
                       ----------------------*/
@@ -255,10 +252,23 @@ body {
     padding: 0;
     overflow: hidden;
     position: relative;
+    background: url('../images/background.png');
+}
+
+.introduction .intro-data {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    height: 60%;
 }
 
 .introduction img {
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
 }
@@ -266,7 +276,7 @@ body {
 .mask {
     width: 100%;
     height: 100%;
-    opacity: 0.8;
+    opacity: 0.4;
     position: absolute;
     top: 0;
     left: 0;
@@ -274,15 +284,18 @@ body {
 }
 
 .intro-content {
-    position: relative;
+    position: absolute;
+    width: 100%;
     z-index: 10;
-    top: 50%;
     opacity: 0.9;
-    -webkit-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
-    transform: translateY(-50%);
+    bottom: 0;
+    left: 50%;
+    height: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
 }
 
 .intro-content h1 {
@@ -352,7 +365,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    height: auto;
+    height: 100%;
     -webkit-transition: -webkit-transform 1s linear;
     -moz-transition: -moz-transform 1s linear;
     -ms-transition: -ms-transform 1s linear;
@@ -458,6 +471,7 @@ body {
     position: fixed;
     padding: 0;
     overflow: hidden;
+    background: url('../images/background.png');
 }
 
 .main-heading {
@@ -500,21 +514,7 @@ body {
 
 /* ( a ) Story of Glory */
 
-.profile-page .image-container {
-    background: url(../images/background/profile_image.jpg);
-    background-size: cover;
-    background-position: bottom;
-}
 
-.story {
-    background: url(../images/background/story_bg.jpg);
-    background-size: cover;
-    min-height: 100vh;
-}
-
-.story-content {
-    padding: 20px;
-}
 
 .story-content img {
     padding: 0;
@@ -604,13 +604,6 @@ body {
 
 /* ( c ) Some Facts */
 
-.facts {
-    background: url(../images/background/facts-bg.jpg);
-    background-size: cover;
-    text-align: center;
-    padding: 50px 15px;
-}
-
                     /*-----------------
                        8 ) Resume Page
                       -----------------*/
@@ -618,7 +611,7 @@ body {
 /* ( a ) Education Section */
 
 .resume-page .image-container {
-    background: url(../images/background/resume_image.jpg);
+    background: url(../images/background.png);
     background-size: cover;
     background-position: bottom;
 }
@@ -804,7 +797,7 @@ body {
 /* ( a ) Portfolio Section */
 
 .portfolio-page .image-container {
-    background: url(../images/background/portfolio_image.jpg);
+    background: url(../images/background.png);
     background-size: cover;
     background-position: bottom;
 }
@@ -1032,7 +1025,7 @@ body {
 /* ( a )  Contact Form */
 
 .contact-page .image-container {
-    background: url(../images/background/contact_image.jpg);
+    background: url(../images/background.png);
     background-size: cover;
     background-position: bottom;
 }

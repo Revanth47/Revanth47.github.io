@@ -1,0 +1,12 @@
+.menu, .introduction {
+	height: 50%;
+}
+.introduction .intro-data {
+	height: 100%;
+}
+
+@media screen and (min-width: 768px) {
+	.menu, .introduction {
+		height: 100%;
+	}
+}
