@@ -2,7 +2,7 @@
 .introduction img {
 	margin: auto;
 	height: 150px;
-	height: 150px;
+	width: 150px;
 }
 
 .menu, .introduction {
@@ -12,6 +12,22 @@
 .introduction .intro-data {
 	display: inline;
 	padding: 1%;
+}
+
+@media screen and (min-width: 480px) {
+	.introduction img {
+		height: 175px;
+		width: 175px;
+	}
+	.introduction .intro-content h1 {
+		font-size: 30px;
+	}	
+	.introduction .intro-content h1 div {
+		font-size: 30px;
+	}
+	.introduction .intro-content h2 {
+		font-size: 20px;
+	}
 }
 
 @media screen and (min-width: 768px) {
