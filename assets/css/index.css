@@ -10,7 +10,8 @@
 }
 
 .introduction .intro-data {
-	height: 100%;
+	display: inline;
+	padding: 1%;
 }
 
 @media screen and (min-width: 768px) {
