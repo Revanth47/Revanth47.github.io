@@ -183,23 +183,6 @@ h6 {
     color: #343333;
 }
 
-html,
-body,
-textarea,
-button,
-input {
-    font-family: 'Open Sans', sans-serif;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: 'Hind', sans-serif;
-}
-
 p {
     font-size: 14px;
     line-height: 1.42;
@@ -504,9 +487,9 @@ body {
                        7 ) Profile Page
                       ------------------*/
 
-/* ( a ) Story of Glory */
-
-
+.story-content {
+    padding-bottom: 50px;
+}
 
 .story-content img {
     padding: 0;
@@ -520,15 +503,17 @@ body {
 }
 
 .story-content div p {
+    font-size: 18px;
+    padding: 5px 0;
     text-indent: 25px;
 }
 
-.story-content div .anchor-btn {
+.profile-page .anchor-btn {
     border: 1px solid #00B6F9;
     color: #00B6F9;
     display: block;
-    float: left;
-    margin: 29px 5px;
+    margin: 29px auto;
+    width: 200px;
     padding: 10px 25px;
     text-decoration: none;
     text-align: center;
@@ -539,7 +524,7 @@ body {
     transition: all 0.3s;
 }
 
-.story-content div .anchor-btn:hover {
+.profile-page .anchor-btn :hover {
     background: #00B6F9;
     color: #fff;
 }
@@ -557,6 +542,7 @@ body {
 .services {
     text-align: center;
     padding: 15px;
+    height: 100px;
     -webkir-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
@@ -573,11 +559,11 @@ body {
     border-radius: 50%;
     box-shadow: 0 0 0 8px rgba(255, 255, 255, 0.15), 0 0 0 0 rgba(255, 255, 255, 0.3);
     color: #00B6F9;
-    font-size: 36px;
+    font-size: 20px;
     height: 60px;
     line-height: 60px;
-    width: 60px;
-    margin: 20px 0 10px 0;
+    width: 150px;
+    margin: auto;
     -webkir-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;

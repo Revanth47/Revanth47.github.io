@@ -1,3 +1,6 @@
+html, body {
+	font-family: 'PT Sans Caption',sans-serif;
+}
 
 .introduction img {
 	margin: auto;
@@ -6,6 +9,7 @@
 }
 
 .menu, .introduction {
+	font-family: 'Bitter', serif;
 	height: 50%;
 }
 

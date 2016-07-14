@@ -119,5 +119,11 @@
         margin: 0;
         font-size: 12px;
     }
+
+    .col-tn {
+        display: block;
+        float: none;
+        width: 100%;
+    }
     
 }
