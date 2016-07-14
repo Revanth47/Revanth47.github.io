@@ -102,7 +102,7 @@
         height: 300px;
     }
     
-    .story-content div a {
+    .story-content div .anchor-btn {
         display: block;
         float: none;
         margin: 5px;
