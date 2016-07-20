@@ -22,6 +22,31 @@ html, body {
 	padding-bottom: 52px;
 }
 
+.project-items {
+	padding: 0 10px;
+}
+
+.project-items .project {
+	height: 130px;
+	padding: 10px;
+	background: white;
+	margin: 5px;
+}
+
+.project-name {
+	text-align: center;
+}
+
+.project-desc {
+	text-align: center;
+}
+
+.project-sticker {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
 @media screen and (min-width: 480px) {
 	.introduction img {
 		height: 175px;
