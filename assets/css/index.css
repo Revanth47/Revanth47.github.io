@@ -22,6 +22,35 @@ html, body {
 	padding-bottom: 52px;
 }
 
+.experience-container .experience-card {
+	padding: 25px;
+	box-shadow: 0 0 5px 1px #bbb;
+	margin-top: 50px;
+} 
+
+.experience-card .about {
+	border-bottom: 3px solid rgba(0,0,0,0.3);
+}
+
+.experience-card .company {
+	margin: 0;
+	padding-right: 10px;
+	display: inline-block;
+	font-weight: bold;
+	font-size: 1.6rem;
+}
+
+.experience-card .period {
+	margin: 0;
+	display: inline-block;
+	opacity: 0.7;
+}
+
+.experience-card .desc {
+	padding-top: 10px;
+
+}
+
 .portfolio .small-heading {
 	font-size: 2.5rem;
 	padding: 60px 0;
@@ -36,7 +65,7 @@ html, body {
 	font-size: 0.86rem;
 	height: 180px;
 	padding: 10px;
-	background: white;
+	background: chocolate;
 	box-shadow: 3px 3px 10px 2px #bbb;
 }
 
@@ -51,6 +80,7 @@ html, body {
 }
 
 .project-name {
+	text-transform: uppercase;
 	font-size: 2rem;
 	text-align: center;
 }
