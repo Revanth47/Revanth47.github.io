@@ -32,10 +32,12 @@ html, body {
 }
 
 .project-items .project {
+	margin-top: 50px;
 	font-size: 0.86rem;
 	height: 180px;
 	padding: 10px;
 	background: white;
+	box-shadow: 3px 3px 10px 2px #bbb;
 }
 
 .project:hover {
