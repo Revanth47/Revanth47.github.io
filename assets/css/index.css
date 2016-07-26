@@ -18,8 +18,25 @@ html, body {
 	padding: 1%;
 }
 
-.content-container >div:nth-last-of-type(2) {
+.content-container > div:nth-last-of-type(2) {
 	padding-bottom: 52px;
+}
+
+.resume-page .content-container > div:nth-last-of-type(2) {
+	padding-bottom: 0;
+}
+
+.resume-page .pdf-container {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.pdf-container object {
+	width: 100%;
+	height: 100%;
 }
 
 .experience-container .experience-card {
@@ -61,11 +78,12 @@ html, body {
 }
 
 .project-items .project {
-	margin-top: 50px;
+	margin-top: 25px;
+	margin-bottom: 25px;
 	font-size: 0.86rem;
 	height: 180px;
 	padding: 10px;
-	background: beige;
+	background: teal;
 	box-shadow: 3px 3px 10px 2px #bbb;
 }
 

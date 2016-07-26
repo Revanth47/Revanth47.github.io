@@ -259,6 +259,7 @@ body {
 }
 
 .intro-content h2 {
+    margin-top: 10px;
     color: #fff;
     text-align: center;
     font-weight: 300;
